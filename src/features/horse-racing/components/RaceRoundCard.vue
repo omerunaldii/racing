@@ -33,7 +33,7 @@ const results = computed(() =>
 </script>
 
 <template>
-  <article class="overflow-hidden border border-gray-200">
+  <article class="overflow-hidden border border-gray-200" data-testid="round-card">
     <RoundHeader :round="round" />
 
     <div class="grid grid-cols-1 divide-y divide-gray-200 md:grid-cols-2 md:divide-x md:divide-y-0">

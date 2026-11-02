@@ -18,7 +18,7 @@ defineEmits<{
 </script>
 
 <template>
-  <section class="space-y-4">
+  <section class="space-y-4" data-testid="race-track">
     <h2 class="text-base font-semibold text-gray-900">Race Track</h2>
 
     <div v-if="!round" class="px-4 py-10 text-center text-sm text-gray-500">

@@ -10,7 +10,7 @@ defineProps<{
 </script>
 
 <template>
-  <section class="space-y-4">
+  <section class="space-y-4" data-testid="race-schedule">
     <h2 class="text-base font-semibold text-gray-900">Races</h2>
 
     <div v-if="rounds.length === 0" class="px-4 py-10 text-center text-sm text-gray-500">

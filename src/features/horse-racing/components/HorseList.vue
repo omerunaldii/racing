@@ -7,7 +7,7 @@ defineProps<{
 </script>
 
 <template>
-  <section>
+  <section data-testid="horse-list">
     <div class="py-2">
       <h2 class="text-base font-semibold text-gray-900">Horses</h2>
     </div>

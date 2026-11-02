@@ -13,7 +13,7 @@ defineProps<{
       <span class="text-sm text-gray-500">{{ round.distance }}m</span>
     </div>
 
-    <span class="px-3 py-1 text-xs font-medium capitalize text-gray-700">
+    <span data-testid="round-status" class="px-3 py-1 text-xs font-medium capitalize text-gray-700">
       {{ round.status }}
     </span>
   </div>
