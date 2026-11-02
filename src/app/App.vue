@@ -1,7 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import HorseRacingView from '@/features/horse-racing/components/HorseRacingView.vue'
+</script>
 
 <template>
-  <h1 class="text-3xl font-bold text-blue-600">You did it!</h1>
+  <HorseRacingView />
 </template>
-
-<style scoped></style>
