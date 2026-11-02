@@ -26,5 +26,6 @@ export function generateRaceSchedule(horses: Array<IHorse>): Array<IRaceRound> {
     distance,
     horseIds: selectRandomHorses(horses),
     status: 'pending',
+    results: [],
   }))
 }

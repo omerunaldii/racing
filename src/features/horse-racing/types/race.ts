@@ -5,15 +5,11 @@ export interface IRaceRound {
   distance: number
   horseIds: Array<string>
   status: RaceStatus
+  results: Array<IRaceResult>
 }
 
 export interface IRaceResult {
   horseId: string
   position: number
   finishTime: number
-}
-
-export interface ICompletedRace {
-  roundId: number
-  results: Array<IRaceResult>
 }
