@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { storeToRefs } from 'pinia'
-import { useHorseRacingStore } from '@/features/horse-racing/stores/horse_racing_store'
+import type { IHorse } from '@/features/horse-racing/types/horse'
 
-const store = useHorseRacingStore()
-const { horses } = storeToRefs(store)
+defineProps<{
+  horses: Array<IHorse>
+}>()
 </script>
 
 <template>
